@@ -1,0 +1,1789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_crimson"
+    android:orientation="vertical"
+    tools:context=".TimeTable">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="-15dp"
+        app:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_green"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0"
+                android:text="Time Table"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Monday Lecture 1"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Monday Lecture 2"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Monday Lecture 3"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Monday Lecture 4"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Monday Lecture 5"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Monday Lecture 6"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Monday Lecture 7"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Monday Lecture 8"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Tuesday Lecture 1"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Tuesday Lecture 2"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Tuesday Lecture 3"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Tuesday Lecture 4"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Tuesday Lecture 5"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Tuesday Lecture 6"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Tuesday Lecture 7"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Tuesday Lecture 8"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Wednesday Lecture 1"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Wednesday Lecture 2"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Wednesday Lecture 3"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Wednesday Lecture 4"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Wednesday Lecture 5"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Wednesday Lecture 6"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Wednesday Lecture 7"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Wednesday Lecture 8"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Thursday lecture 1"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Thursday lecture 2"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Thursday lecture 3"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Thursday lecture 4"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Thursday lecture 5"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Thursday lecture 6"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="thursday Lecture 7"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Thursday lecture 8"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Friday Lecture 1"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Friday Lecture 2"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Friday Lecture 3"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Friday Lecture 4"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Friday Lecture 5"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Friday Lecture 6"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Friday lecture 7"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Friday Lecture 8"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/s58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Subject"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/f58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Faculty"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/r58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Room no."
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/UpdateTimeTable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="#242323"
+                android:text="Update"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:cornerRadius="5dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

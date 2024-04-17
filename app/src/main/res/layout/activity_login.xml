@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signinid_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/signinid_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtEmailAddressSignin"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:ems="10"
+            android:hint="@string/uid"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#607D8B"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/editTextSigninPassword"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#607D8B"
+            tools:ignore="Autofill" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBar2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#E30000"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="8dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/signup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/don_t_have_an_account"
+            android:textColor="#FBFBFB"
+            android:textSize="12sp"></TextView>
+
+        <TextView
+            android:id="@+id/signup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/signup"
+            android:textColor="#FBFBFB"
+            android:textSize="12sp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+</RelativeLayout>

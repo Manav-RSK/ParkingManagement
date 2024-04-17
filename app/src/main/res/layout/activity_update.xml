@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_green"
+    android:orientation="vertical"
+    tools:context=".Update">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="-15dp"
+        android:layout_marginBottom="5dp"
+        android:foregroundGravity="center"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_green"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Update"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="2dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:id="@+id/personal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient_crimson"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="Details"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="2dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:id="@+id/timetable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient_crimson"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:text="Time Table"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="2dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:id="@+id/subject"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient_crimson"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:text="Subject Details"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="2dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:id="@+id/attendance"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient_crimson"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:text="Attendance Details"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="2dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:id="@+id/score"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient_crimson"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:text="Score Details"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
