@@ -15,6 +15,9 @@
         android:theme="@style/Theme.AMS"
         tools:targetApi="31">
         <activity
+            android:name=".ParkingActivity"
+            android:exported="false" />
+        <activity
             android:name=".LV"
             android:exported="false" />
         <activity
